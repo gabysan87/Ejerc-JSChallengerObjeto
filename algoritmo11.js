@@ -19,4 +19,5 @@ console.log(myFunction({w:15,x:22,y:13}))
 
 // Object.values(a): Esto obtiene los valores de las propiedades del objeto a y devuelve un array con esos valores.
 
-// .reduce((sum, cur) => sum + cur, 0): Luego, se utiliza el método reduce en el array de valores. La función de reducción se define con dos parámetros: sum (acumulador) y cur (valor actual). En cada iteración, suma el valor actual cur al acumulador sum. El segundo argumento de reduce es el valor inicial del acumulador, en este caso, se establece en 0.
+// .reduce((sum, cur) => sum + cur, 0): Luego, se utiliza el método reduce en el array de valores. La función de reducción se define con dos parámetros: sum (acumulador) y cur (valor actual). En cada iteración, suma el valor actual cur al acumulador sum. 
+// El segundo argumento de reduce es el valor inicial del acumulador, en este caso, se establece en 0.

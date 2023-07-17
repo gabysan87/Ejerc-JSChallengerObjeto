@@ -4,8 +4,16 @@
 
 const myFunction = (a, b) => {
 
-    return a.reduce((obj, key, index) => ({ ...obj, [key]: b[index] }), {});
+    // return a.reduce((obj, key, index) => ({ ...obj, [key]: b[index] }), {});
     // return a.reduce((acc, cur, i) => ({ ...acc, [cur]: b[i] }), {}); JS
+
+    const obj = {};
+    for (let i = 0; i < a.length; i++) {
+       obj[a[i]] = b[i];
+    }
+    return obj;
+  
+   
 }
 
 console.log(myFunction(['a','b','c'],[1,2,3]))

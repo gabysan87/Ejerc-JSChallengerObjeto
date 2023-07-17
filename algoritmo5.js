@@ -5,7 +5,8 @@
 const myFunction = (a, b) => {
 
     // return  a.hasOwnProperty(b) && Boolean(a[b]);
-    return Boolean(a[b]);
+    // return Boolean(a[b]); JS
+    return a[b] ? true : false
     }
 
 console.log(myFunction({a:1,b:2,c:3},'b'))

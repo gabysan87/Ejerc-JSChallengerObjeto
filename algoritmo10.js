@@ -4,7 +4,9 @@
 
 const myFunction = (obj) => {
 
-return 
+return obj && obj.a ? obj.a.b : undefined
+// return obj?.a?.b; JS
+ 
 }
 
 console.log(myFunction({a:1}))
